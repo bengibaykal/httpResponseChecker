@@ -36,7 +36,7 @@ public class ResponseCodeCheckFromFile {
         }
         
         if (counter !=0 ){
-         System.out.println("Number of broken links in this file : " + counter );
+            System.out.println("Number of broken links in this file : " + counter );
         }
     }
 }
