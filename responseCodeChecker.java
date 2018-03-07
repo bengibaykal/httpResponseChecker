@@ -11,8 +11,6 @@
  import edu.duke.*;
  import org.apache.commons.csv.*;
 
-
-
 public class ResponseCodeCheckFromFile {
     public static void main (String args[]) throws Exception
     {   
@@ -34,14 +32,11 @@ public class ResponseCodeCheckFromFile {
             {
             System.out.println("Reponse for the URL " + url  +":  NOK with the code " + code );
             counter++;
-            
-            }
-            
+            }  
         }
         
         if (counter !=0 ){
          System.out.println("Number of broken links in this file : " + counter );
         }
-        
     }
 }
